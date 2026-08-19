@@ -28,3 +28,9 @@ Repositorio inicial preparado para desarrollo. La demo debe mantenerse privada, 
 ## Próximo paso
 
 Inicializar la aplicación web y construir la primera versión funcional siguiendo `AGENTS.md` y `docs/PROJECT_BRIEF.md`.
+
+## Blueprint visual añadido
+
+- `index.html`: prototipo estático/semántico para que Codex implemente la primera versión.
+- `docs/STYLE_AND_OFFER_PLAN.md`: dirección estética, UX y propuesta comercial.
+- `public/images/`: assets conceptuales generados para la demo; no representan instalaciones ni personal real.
