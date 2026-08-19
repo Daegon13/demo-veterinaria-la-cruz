@@ -6,9 +6,13 @@ Demo web comercial privada y conceptual para Veterinaria La Cruz, Montevideo.
 
 Mostrar cómo una presencia web propia puede convertir búsquedas locales, tráfico desde redes y visitas móviles en consultas, llamadas y visitas a la sede correcta.
 
-## Estado
+## Stack y arquitectura
 
-Repositorio inicial preparado para desarrollo. La demo debe mantenerse privada, no oficial y no indexable.
+- Next.js 14 con App Router y TypeScript.
+- Componentes interactivos aislados para selector de sede, tarjetas y acciones móviles.
+- Datos operativos centralizados en `src/data/branches.ts`.
+- Estilos responsive en `src/app/globals.css` y optimización de imágenes con `next/image`.
+- Metadata y `robots.txt` configurados para bloquear indexación.
 
 ## Principios
 
@@ -25,9 +29,26 @@ Repositorio inicial preparado para desarrollo. La demo debe mantenerse privada, 
 - `docs/PROJECT_BRIEF.md`: dirección estratégica y arquitectura objetivo.
 - `docs/VERIFIED_DATA.md`: datos permitidos y datos que deben quedar sin completar hasta nueva verificación.
 
-## Próximo paso
+## Ejecutar localmente
 
-Inicializar la aplicación web y construir la primera versión funcional siguiendo `AGENTS.md` y `docs/PROJECT_BRIEF.md`.
+Requiere Node.js 18.17 o superior.
+
+```bash
+npm install
+npm run dev
+```
+
+Abrir `http://localhost:3000`. Para validar una compilación de producción:
+
+```bash
+npm run lint
+npm run build
+npm start
+```
+
+## Despliegue en Vercel
+
+Importar el repositorio en Vercel y usar la configuración detectada de Next.js. No requiere variables de entorno ni servicios externos. La demo seguirá enviando directivas `noindex`, `nofollow` y `noarchive`; no se genera sitemap público.
 
 ## Blueprint visual añadido
 
