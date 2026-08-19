@@ -16,11 +16,31 @@ Este archivo actúa como allowlist de contenido factual. Antes de publicar un da
 
 La existencia de una cuenta no autoriza a copiar fotografías o textos protegidos del feed.
 
-## Dirección confirmada de referencia
+## Sedes y teléfonos confirmados para esta demo
 
-- **Av. 8 de Octubre 3560, Unión, Montevideo**.
+### Unión
 
-La investigación previa encontró evidencia pública de más sedes, pero cualquier dato de sede utilizado en producción debe revisarse nuevamente antes de convertirlo en copy definitivo, especialmente teléfonos, horarios y WhatsApp.
+- Nombre corto: **Unión**.
+- Dirección: **Av. 8 de Octubre 3560, 12000 Montevideo**.
+- Teléfono visible: **2506 6704**.
+- Enlace telefónico: `tel:+59825066704`.
+
+### Curva / Maroñas
+
+- Nombre recomendado: **Curva**.
+- Área secundaria permitida: **zona Maroñas**.
+- Dirección: **Av. 8 de Octubre 4750, 12000 Montevideo**.
+- Teléfono visible: **2514 9272**.
+- Enlace telefónico: `tel:+59825149272`.
+
+### La Cruz de Carrasco
+
+- Nombre corto: **Carrasco**.
+- Dirección: **Av. Bolivia 2885 bis, 11400 Montevideo**.
+- Teléfono visible: **2522 1885**.
+- Enlace telefónico: `tel:+59825221885`.
+
+Los enlaces de Maps deben generarse mediante búsqueda por estas direcciones, sin inferir coordenadas.
 
 ## Oferta pública que puede utilizarse con prudencia
 
